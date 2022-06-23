@@ -3,6 +3,6 @@
 require_relative "relgap/version"
 
 module Relgap
-  class Error < StandardError; end
-  # Your code goes here...
+  autoload :Cli, "relgap/cli"
+  autoload :Commands, "relgap/commands"
 end
