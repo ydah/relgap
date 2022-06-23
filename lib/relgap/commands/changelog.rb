@@ -15,9 +15,9 @@ module Relgap
           after_version:
         )
           new(
-            url: url,
-            before_version: before_version,
-            after_version: after_version
+            url:,
+            before_version:,
+            after_version:
           ).call
         end
       end
